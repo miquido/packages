@@ -20,7 +20,12 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  google_sign_in_platform_interface: ^2.2.0
+  # google_sign_in_platform_interface: ^2.2.0
+  google_sign_in_platform_interface:
+    git:
+      url: https://github.com/miquido/packages
+      path: packages/google_sign_in/google_sign_in_platform_interface
+      ref: google_sign_in_macos
 
 dev_dependencies:
   build_runner: ^2.3.0
